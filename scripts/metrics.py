@@ -2,7 +2,8 @@ def print_league_summary(initial_cost, best_cost, accepted_swaps, tested_swaps):
     improvement = initial_cost - best_cost
     percent_improvement = (improvement / initial_cost) * 100 if initial_cost else 0
 
-    print("\nLeague Travel Summary\n")
+    print("\nLeague Travel Summary")
+    print("-" * 80)
 
     print("Initial league travel:", round(initial_cost, 2), "km")
     print("Optimized league travel:", round(best_cost, 2), "km")
@@ -10,9 +11,7 @@ def print_league_summary(initial_cost, best_cost, accepted_swaps, tested_swaps):
     print("Percent improvement:", round(percent_improvement, 2), "%")
     print("Accepted swaps:", accepted_swaps)
 
-def print_team_comparison(schedule, best_schedule, teams, team_travel_cost):
-    print("\nTeam Travel Totals:")
-
+def get_team_results(schedule, best_schedule, teams, team_travel_cost):
     results = []
 
     for team_id in teams:
@@ -28,16 +27,6 @@ def print_team_comparison(schedule, best_schedule, teams, team_travel_cost):
         ))
 
     results.sort(key=lambda x: x[3], reverse=True)
-
-    for name, original, optimized, improvement in results:
-        print(
-            name,
-            round(original, 2), "->",
-            round(optimized, 2),
-            "Improvement:",
-            round(improvement, 2), "km"
-        )
-
     return results
 
 # used to determine which random seed would perform well (selected 0)
