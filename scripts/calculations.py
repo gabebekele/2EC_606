@@ -1,16 +1,9 @@
 from copy import deepcopy
 from haversine import haversine, Unit
+import random
 
 
 def is_valid_schedule(schedule, num_teams=20):
-    """
-    schedule:
-        dict[int, list[tuple[int, int]]]
-        week -> list of (home_team_id, away_team_id)
-
-    Returns:
-        (bool, str)
-    """
     teams = set(range(1, num_teams + 1))
 
     # Track totals
@@ -76,13 +69,7 @@ def is_valid_schedule(schedule, num_teams=20):
 
 
 def build_team_weekly_schedule(schedule, num_teams=20):
-    """
-    Converts league schedule into per-team weekly schedule.
-
-    Returns:
-        dict[int, list[tuple[int, int, bool]]]
-        team_id -> [(week, opponent_id, is_home), ...]
-    """
+    
     team_schedule = {team: [] for team in range(1, num_teams + 1)}
 
     for week in range(1, 39):
@@ -97,17 +84,7 @@ def build_team_weekly_schedule(schedule, num_teams=20):
 
 
 def team_travel_cost(team_id, schedule, teams):
-    """
-    Travel rule:
-    - Start at home stadium.
-    - If away: travel to opponent stadium.
-    - If consecutive away games: go directly from previous away stadium to next away stadium.
-    - If a home game happens after an away game: return home before that home game.
-    - If the final game is away: return home after the season.
 
-    teams:
-        dict[int, {"coords": (lat, lon), ...}]
-    """
     weekly = build_team_weekly_schedule(schedule)[team_id]
     home_coords = teams[team_id]["coords"]
 
@@ -134,17 +111,11 @@ def team_travel_cost(team_id, schedule, teams):
 
 
 def league_travel_cost(schedule, teams):
-    """
-    Sum of all team travel costs.
-    """
     return sum(team_travel_cost(team_id, schedule, teams) for team_id in teams)
 
 
 def team_travel_breakdown(team_id, schedule, teams):
-    """
-    Optional helper for debugging / reporting.
-    Returns a readable travel log for one team.
-    """
+    
     weekly = build_team_weekly_schedule(schedule)[team_id]
     home_coords = teams[team_id]["coords"]
     home_name = teams[team_id]["name"]
@@ -188,10 +159,6 @@ def team_travel_breakdown(team_id, schedule, teams):
 
 
 def propose_swap(schedule, week1, match_idx1, week2, match_idx2):
-    """
-    Swap two matches between two weeks.
-    Returns a NEW schedule.
-    """
     new_schedule = deepcopy(schedule)
     new_schedule[week1][match_idx1], new_schedule[week2][match_idx2] = (
         new_schedule[week2][match_idx2],
@@ -230,7 +197,6 @@ def can_swap(schedule, week1, match_idx1, week2, match_idx2):
 
 
 def optimize_schedule(schedule, teams, iterations=5000, seed=None):
-    import random
 
     if seed is not None:
         random.seed(seed)
