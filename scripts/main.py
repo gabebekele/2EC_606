@@ -1,7 +1,7 @@
 import os
 import matplotlib.pyplot as plt
 from data import teams, schedule
-from metrics import print_league_summary, get_team_results, run_seed_experiment, print_additional_results
+from metrics import print_league_summary, get_team_results, print_additional_results
 from calculations import (
     is_valid_schedule,
     league_travel_cost,

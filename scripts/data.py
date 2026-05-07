@@ -4,200 +4,120 @@ teams = {
         "coords": (51.555, -0.108),
         "fixtures": [14,11,12,16,13,15,19,10,8,6,17,18,7,4,2,20,9,5,2,3,12,16,14,11,17,4,18,7,5,9,20,3,13,15,10,19,6,8],
         "away_weeks": [1,3,6,8,10,11,13,15,17,20,22,24,26,27,29,31,33,36,38],
-        "total_travel": 0,
-        "longest_away_streak": 3,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     2: {
         "name": "Aston Villa",
         "coords": (52.509, -1.884),
         "fixtures": [15,4,8,9,17,10,6,18,13,12,3,11,20,5,1,19,14,7,1,16,8,9,15,4,3,5,11,20,7,14,19,16,17,10,18,6,12,13],
         "away_weeks": [2,4,5,8,10,12,14,16,18,19,21,23,25,28,30,32,34,36,38],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     3: {
         "name": "Bournemouth",
         "coords": (50.7352, -1.838),
         "fixtures": [12 , 20, 18, 5, 15, 11, 10, 8, 16, 13, 2, 19, 17, 9, 7, 14, 6, 4, 7, 1, 18, 5, 12, 20, 2, 9, 19, 17, 4, 6, 14, 1, 15, 11, 8, 10, 13, 16],
         "away_weeks": [1,3,6,8,10,11,13,16,18,19,22,24,26,27,30,32,33,36,38],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     4: {
         "name": "Brentford",
         "coords": (51.4907, -0.288),
         "fixtures": [16, 2, 17, 7, 10, 14, 13, 19, 12, 8, 15, 5, 6, 1, 18, 11, 20, 3, 18, 9, 17, 7, 16, 2, 15, 1, 5, 6, 3, 20, 11, 9, 10, 14, 19, 13, 8, 12],
         "away_weeks": [1, 3, 5, 8, 10, 12, 14, 15, 17, 20, 22, 24, 25, 28, 29, 31, 34, 36, 38],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     5: {
         "name": "Brighton",
         "coords": (50.8616, -0.0837),
         "fixtures": [10, 9, 13, 3, 18, 7, 20, 15, 14, 11, 8, 4, 16, 2, 19, 12, 17, 2, 19, 6, 13, 3, 10, 9, 8, 2, 4, 16, 1, 17, 12, 6, 18, 7, 15, 20, 11, 14],
         "away_weeks": [2, 4, 6, 7, 9, 11, 13, 16, 18, 19, 21, 23, 26, 27, 30, 32, 33, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     6: {
         "name": "Burnley",
         "coords": (53.789, -2.230),
         "fixtures": [18, 17, 14, 12, 16, 13, 2, 11, 20, 1, 19, 7, 4, 8, 15, 10, 3, 9, 15, 5, 14, 12, 18, 17, 19, 8, 7, 4, 9, 3, 10, 5, 16, 13, 11, 2, 1, 20],
         "away_weeks": [1, 3, 6, 7, 9, 11, 13, 15, 17, 20, 22, 24, 26, 27, 29, 31, 33, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     7: {
         "name": "Chelsea",
         "coords": (51.4816, -0.191),
         "fixtures": [8, 19, 10, 4, 14, 5, 12, 16, 17, 18, 20, 6, 1, 11, 3, 9, 15, 2, 3, 13, 10, 4, 8, 19, 20, 11, 6, 1, 2, 15, 9, 13, 14, 5, 16, 12, 18, 17],
         "away_weeks": [2, 4, 5, 8, 10, 12, 14, 15, 17, 20, 21, 23, 25, 28, 29, 31, 34, 36, 38],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     8: {
         "name": "Crystal Palace",
         "coords": (51.3983, -0.0856),
         "fixtures": [7, 16, 2, 17, 19, 12, 9, 3, 2, 4, 5, 20, 14, 6, 10, 13, 11, 18, 10, 15, 2, 17, 7, 16, 5, 6, 20, 14, 18, 11, 13, 15, 19, 12, 3, 9, 4, 1],
         "away_weeks": [1, 3, 5, 7, 9, 12, 14, 15, 17, 20, 22, 24, 25, 28, 29, 31, 34, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     9: {
         "name": "Everton",
         "coords": (53.4388, -2.9663),
         "fixtures": [11, 5, 20, 2, 12, 19, 8, 13, 18, 17, 10, 14, 15, 3, 16, 7, 1, 6, 16, 4, 20, 2, 11, 5, 10, 3, 14, 15, 6, 1, 7, 4, 12, 19, 13, 8, 17, 18],
         "away_weeks": [1, 3, 5, 8, 10, 12, 14, 16, 18, 19, 22, 24, 25, 28, 30, 32, 34, 36, 38],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     10: {
         "name": "Fulham",
         "coords": (51.4749, -0.2217),
         "fixtures": [5, 14, 7, 11, 4, 2, 3, 1, 15, 20, 9, 17, 18, 13, 8, 6, 16, 19, 8, 12, 7, 11, 5, 14, 9, 13, 17, 18, 19, 16, 6, 12, 4, 2, 1, 3, 20, 15],
         "away_weeks": [1, 3, 6, 7, 9, 11, 13, 16, 18, 19, 22, 24, 26, 27, 30, 32, 33, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     11: {
         "name": "Leeds",
         "coords": (53.778, -1.573),
         "fixtures": [9, 2, 15, 10, 20, 3, 18, 6, 19, 5, 16, 2, 13, 7, 12, 4, 8, 17, 12, 14, 15, 10, 9, 1, 16, 7, 3, 13, 17, 8, 4, 14, 20, 1, 6, 18, 5, 19],
         "away_weeks": [2, 4, 5, 8, 10, 11, 13, 16, 18, 19, 21, 23, 26, 27, 30, 32, 34, 36, 38],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     12: {
         "name": "Liverpool",
         "coords": (53.4308, -2.9608),
         "fixtures": [3, 15, 1, 6, 9, 8, 7, 14, 4, 2, 13, 16, 19, 17, 11, 5, 18, 20, 11, 10, 2, 6, 3, 15, 13, 17, 16, 19, 20, 18, 5, 10, 9, 8, 14, 7, 2, 4],
         "away_weeks": [2, 4, 6, 7, 9, 11, 13, 15, 17, 20, 21, 23, 26, 27, 29, 31, 33, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     13: {
         "name": "Manchester City",
         "coords": (53.4831, -2.2004),
         "fixtures": [20, 18, 5, 14, 2, 6, 4, 9, 2, 3, 12, 15, 11, 10, 17, 8, 19, 16, 17, 7, 5, 14, 20, 18, 12, 10, 15, 11, 16, 19, 8, 7, 1, 6, 9, 4, 1, 2],
         "away_weeks": [1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 22, 24, 25, 28, 30, 32, 34, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     14: {
         "name": "Manchester United",
         "coords": (53.4631, -2.2913),
         "fixtures": [1, 10, 6, 13, 7, 4, 17, 12, 5, 16, 18, 9, 8, 19, 20, 3, 2, 15, 20, 11, 6, 13, 1, 10, 18, 19, 9, 8, 15, 2, 3, 11, 7, 4, 12, 17, 16, 5],
         "away_weeks": [2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 21, 23, 26, 27, 29, 31, 33, 36, 38],
-        "total_travel": 0,
-        "longest_away_streak": 3,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     15: {
         "name": "Newcastle United",
         "coords": (54.9756, -1.6216),
         "fixtures": [2, 12, 11, 20, 3, 1, 16, 5, 10, 19, 4, 13, 9, 18, 6, 17, 7, 14, 6, 8, 11, 20, 2, 12, 4, 18, 13, 9, 14, 7, 17, 8, 3, 1, 5, 16, 19, 10],
         "away_weeks": [1, 3, 5, 8, 10, 11, 13, 16, 18, 19, 22, 24, 26, 27, 30, 32, 34, 36, 38],
-        "total_travel": 0,
-        "longest_away_streak": 0,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     16: {
         "name": "Nottingham Forest",
         "coords": (52.9399, -1.132),
         "fixtures": [4, 8, 19, 1, 6, 17, 15, 7, 3, 14, 11, 12, 5, 20, 9, 18, 10, 13, 9, 2, 19, 1, 4, 8, 11, 20, 12, 5, 13, 10, 18, 2, 6, 17, 7, 15, 14, 3],
         "away_weeks": [2, 4, 5, 7, 9, 12, 14, 15, 17, 20, 21, 23, 25, 28, 29, 31, 34, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     17: {
         "name": "Sunderland",
         "coords": (54.914, -1.388),
         "fixtures": [19, 6, 4, 8, 2, 16, 14, 20, 7, 9, 1, 10, 3, 12, 13, 15, 5, 11, 13, 18, 4, 8, 19, 6, 1, 12, 10, 3, 11, 5, 15, 18, 2, 16, 20, 14, 9, 7],
         "away_weeks": [2, 4, 6, 7, 9, 12, 14, 15, 17, 20, 21, 23, 25, 28, 29, 31, 33, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     18: {
         "name": "Tottenham",
         "coords": (51.6043, -0.066),
         "fixtures": [6, 13, 3, 19, 5, 20, 11, 2, 9, 7, 14, 1, 10, 15, 4, 16, 12, 8, 4, 17, 3, 19, 6, 13, 14, 15, 1, 10, 8, 12, 16, 17, 5, 20, 2, 11, 7, 9],
         "away_weeks": [2, 4, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 28, 30, 32, 34, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     19: {
         "name": "West Ham",
         "coords": (51.5386, -0.0166),
         "fixtures": [17, 7, 16, 18, 8, 9, 1, 4, 11, 15, 6, 3, 12, 14, 5, 2, 13, 10, 5, 20, 16, 18, 17, 7, 6, 14, 3, 12, 10, 13, 2, 20, 8, 9, 4, 1, 15, 11],
         "away_weeks": [1, 3, 6, 7, 9, 12, 14, 15, 17, 20, 22, 24, 25, 28, 29, 31, 33, 35, 37],
-        "total_travel": 0,
-        "longest_away_streak": 2,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     },
     20: {
         "name": "Wolves",
         "coords": (52.5903, -2.1304),
         "fixtures": [13, 3, 9, 15, 11, 18, 5, 17, 6, 10, 7, 8, 2, 16, 14, 1, 4, 12, 14, 19, 9, 15, 13, 3, 7, 16, 8, 2, 12, 4, 1, 19, 11, 18, 17, 5, 10, 6],
         "away_weeks": [2, 4, 6, 8, 10, 11, 13, 16, 18, 19, 21, 23, 26, 27, 30, 32, 33, 36, 38],
-        "total_travel": 0,
-        "longest_away_streak": 3,
-        "furthest_single_trip": 0,
-        "furthest_consecutive_away_distance": 0
     }
 }
 

@@ -185,3 +185,4 @@ pip install -r requirements.txt
 python scripts/main.py
 
 
+No AI or resources other than the Premier league site for scheduling as well as google maps for stadium coordinates were used in this submission.
